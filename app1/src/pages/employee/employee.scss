@@ -1,0 +1,54 @@
+page-employee {
+        
+            .height1
+            {
+                height: 300px;
+                width: 300px;
+                padding-left: 20px;
+            }
+            .top
+            {
+              padding-top: 70px;
+            }
+            .card-background-page {
+                
+                  ion-card {
+                    position: relative;
+                    text-align: center;
+                  }
+                
+                  .card-title {
+                    position: absolute;
+                    top: 30%;
+                    font-size: 2.0em;
+                    width: 100%;
+                    font-weight: bold;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: #fff;
+                  }
+                
+                  .card-subtitle {
+                    font-size: 30px;;
+                    position: absolute;
+                    top: 55%;
+                    width: 100%;
+                    color: #fff;
+                    padding-left: 102px;
+
+                  }
+                  .card-subtitle1 {
+                    font-size: 30px;;
+                    position: absolute;
+                    top: 65%;
+                    width: 100%;
+                    color: #fff;
+                  }
+                
+                }
+                h2.a
+                {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 14px;
+                }
+        }
+        

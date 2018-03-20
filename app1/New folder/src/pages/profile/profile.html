@@ -1,0 +1,31 @@
+<ion-header>
+  
+    <ion-navbar>
+      <ion-title>My Profile</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content class="card-background-page" padding>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div class="col-title" (click)="onPersonalDetails()">Personal<br>Details</div>
+          </ion-col> 
+          <ion-col>
+            <div class="col-title" (click)="onOrderPlaced()">Order<br>Placed</div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+              
+              <div class="col-title" (click)="onTarget()">Target</div>
+            </ion-col> 
+            <ion-col>
+              <div class="col-title" (click)="onAttendance()" >Attendance</div>
+            </ion-col>
+          </ion-row>
+     </ion-grid>
+    </ion-content>
+  

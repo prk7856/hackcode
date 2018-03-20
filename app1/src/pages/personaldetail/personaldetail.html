@@ -1,0 +1,39 @@
+<ion-header>
+  
+    <ion-navbar>
+      <ion-title>PersonalDetails</ion-title>
+    </ion-navbar>
+  </ion-header>
+    <ion-content padding>
+      <ion-card class="ht">
+          <div class="card-title">
+              <ion-avatar item-start class="a">
+                  <img src="../assets/imgs/person.png" height="45px;" width="30px;">
+              </ion-avatar>                     
+          </div>
+      <ion-list>
+          <ion-item>
+            <ion-label floating>Name
+                <ion-icon name="more" right (click)="presentPopover($event)"></ion-icon>
+            </ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label floating>Contact</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label floating>Address</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating>Post</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item><br/>
+            <ion-item>
+                <h3 (click)="onclickload()">Change Password???</h3>
+              </ion-item>
+        </ion-list>
+      </ion-card>
+  </ion-content>
+  

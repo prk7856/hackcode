@@ -1,0 +1,28 @@
+page-profile {
+    
+        .card-background-page {
+    
+            ion-col {
+    
+              position: relative;
+              margin: 5px;
+              text-align: center;
+              background-color: #26C2C4  ;
+              height:120px;
+              margin-top: 10%;
+            }
+          
+            .col-title {
+              position: absolute;
+              top: 40%;
+              font-size: 1.0em;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              width: 100%;
+              font-weight: bold;
+              color: #000000;
+
+            }
+                
+          }
+    }
+    

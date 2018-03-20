@@ -1,0 +1,34 @@
+<ion-content>
+  <ion-header>
+      <ion-navbar>
+          <ion-avatar item-start padding-left>
+              <img src="../assets/imgs/1.png" height="50px;">
+          </ion-avatar>
+      </ion-navbar>
+    </ion-header>
+    
+<ion-card>
+<ion-card-content>
+    <div class="top">
+        <img src="../assets/imgs/3.gif" height="150px;" >
+      </div>
+<ion-list>
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" type="text" [(ngModel)]="username" #ctl="ngModel"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" type="password"[(ngModel)]="passwd" #ctl="ngModel"></ion-input>
+      </ion-item>
+</ion-list><br/>
+<div class="cen">
+  <button ion-button icon-left round color="col3" (click)="callPostService(username, passwd)">
+  <ion-icon name="key"  icon-start></ion-icon>
+    <div style=" font-family:Arial, Helvetica, sans-serif;">Log in</div>
+  </button>
+</div><br/>
+<h4 style="font-family:'Times New Roman', Times, serifs;color:#17CACF ">Forget Password?</h4>
+</ion-card-content>
+</ion-card>
+</ion-content>

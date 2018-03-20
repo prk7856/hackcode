@@ -1,0 +1,52 @@
+
+<ion-menu [content]="content">  
+    <ion-content class="card-background-page">
+            <ion-card>
+                <div class="background">
+                    <img src="../assets/imgs/1.jpg"/>
+                    <div class="card-title">
+                        <ion-avatar item-start class="a">
+                            <img src="../assets/imgs/person.png" height="45px;" width="30px;">
+                        </ion-avatar>                     
+                    </div>
+                    <div class="card-subtitle">Shagufta Siddiqui
+                        <p>7058076387</p>
+                    </div>
+                </div>
+        <ion-list>
+            <button ion-item (click)="onload_profile(profilepage)"> 
+                    <ion-icon name="person" item-start color="primary"></ion-icon>                    
+                     <h2 class="a">myaccount</h2>          
+            </button>
+            <button ion-item (click)="onload_addcust(addcustPage)"> 
+                    <ion-icon item-start name="add-circle" color="col2">
+                    </ion-icon>
+                     <h2 class="a">Add Customer</h2>          
+            </button>
+            <button ion-item (click)="onload_dailyR(dailyreportpage)"> 
+                    <ion-icon item-start name="document" color="primary">
+                    </ion-icon>
+                     <h2 class="a">Daily Report</h2>          
+            </button>
+            <button ion-item (click)="onload_weeklyR(weeklyreportPage)"> 
+                    <ion-icon item-start name="calendar" color="col2">
+                    </ion-icon>
+                     <h2 class="a">Weekly Reports</h2>          
+            </button>
+            <button ion-item (click)="onload_monthlyR(monthlyreportPage)"> 
+                    <ion-icon item-start name="folder-open" color="primary">
+                    </ion-icon>
+                     <h2 class="a">monthly Reports</h2>          
+            </button>
+            <button ion-item (click)="onload(employeePage)" > 
+                    <ion-icon item-start name="power" color="col1">
+                    </ion-icon>
+                     <h2 class="a">Logout</h2>          
+            </button>
+       
+        </ion-list>
+    </ion-card>
+    </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content></ion-nav>

@@ -1,0 +1,101 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title></ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+  
+      <ion-card padding>
+          <ion-card-header text-center>
+              Customer Details
+          </ion-card-header>
+          <ion-card-content >
+            <ion-grid>
+              <ion-row> 
+                <ion-col>
+                  <ion-item>
+                  <ion-avatar>
+                    <img src="../assets/imgs/1.jpg" style="height:100px; width:100px">
+                  </ion-avatar>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                  <ion-label floating>Name</ion-label>
+                  <ion-input type="text" value=""></ion-input>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                    <ion-label floating>Contact</ion-label>
+                    <ion-input type="number" value=""></ion-input>
+                </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+             <ion-col> 
+              <ion-item>
+                <ion-label floating>Address</ion-label>
+                <ion-input type="text" value=""></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+  
+          </ion-grid>
+          
+          <div>
+            <p>Last 5 Orders</p>
+            <ion-grid >
+              <ion-row class="order_table">
+                  <ion-col>
+                    Sr No.
+                  </ion-col>
+                  <ion-col>
+                    Name
+                  </ion-col>
+                  <ion-col>
+                    Quantity
+                  </ion-col>
+                  <ion-col>
+                    Price
+                  </ion-col>
+              </ion-row>
+              <ion-row class="order_table">
+                <ion-col>
+                    1
+                </ion-col>
+                <ion-col>
+                    T-shirt
+                </ion-col>
+                <ion-col>
+                    2
+                </ion-col>
+                <ion-col>
+                    500.00
+                </ion-col>
+  
+              </ion-row>
+                
+  
+            </ion-grid>
+            <ion-grid>
+              <ion-col>
+                <button ion-button (click)="onSeeMore()">See More...</button>
+              </ion-col>
+            </ion-grid>
+          </div>
+          <br>
+            
+          </ion-card-content>
+          </ion-card>
+  
+  </ion-content>
+  

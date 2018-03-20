@@ -1,0 +1,43 @@
+.card-background-page {
+    
+      ion-card {
+        position: relative;
+        text-align: center;
+      }
+    
+      .card-title {
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        font-weight: bold;
+      }
+    
+      .card-subtitle {
+
+        position: absolute;
+        top: 18%;
+        width: 100%;
+        text-align: left;
+        font-size: 1.1em;
+        margin-left: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+      }
+    
+    }
+    .background{
+        height: 150px;
+   }
+   .a{
+    
+       margin-right: 160px;
+       margin-left: 25px;
+
+   }
+   .text{
+     font-size: 1.0em;
+   }
+   h2.a
+   {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }

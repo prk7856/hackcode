@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>ADD CUSTOMER</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="login-content">
+  <div class="login-box">
+    <form (ngSubmit)="register()" #registerForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+            <ion-item>
+              <ion-label floating>Shop name</ion-label>
+              <ion-input type="text" name="shopname" [(ngModel)]="registerCredentials.shopname" required></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-label floating>Fullname</ion-label>
+              <ion-input type="text" name="fullname" [(ngModel)]="registerCredentials.fullname" required></ion-input>
+            </ion-item>
+            <ion-item >
+              <ion-label floating>Contact</ion-label>
+              <ion-input type="number" name="mobileNumber" [(ngModel)]="registerCredentials.mobileNumber" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-label floating>Address</ion-label>
+              <ion-input type="text" name="address" [(ngModel)]="registerCredentials.address" required></ion-input>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Register</button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+</ion-content>

@@ -1,0 +1,347 @@
+body
+{
+	background-color: #EFEFEF;
+}
+.text-center 
+{
+	text-align:center;
+}
+.text-right
+{
+	text-align:right;
+}
+.text-left
+{
+	text-align:left !important;
+}
+
+.b-right
+{
+	border-right: 1px solid #eee;
+}
+.b-left
+{
+	border-left: 1px solid #eee;
+}
+/******************
+ Top Header Menu CSS 
+*/
+.mdl-list__item-avatar,.mdl-list__item-avatar.material-icons 
+{
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #757575;
+    font-size: 40px;
+    color: #fff
+}
+
+.loggedin-user-top-right
+{
+	padding: 0px !important;
+	margin: 0px;
+	height: 0 !important;
+	margin-top: 12px !important;
+	margin-right: 20px;
+}
+.loggedin-user-top-right img
+{
+	margin-top:0px;	
+}
+
+.loggedin-user-top-right li:hover,.loggedin-user-top-right li a:hover
+{
+	background: #FFF;
+}
+.user-fullname-profile-card
+{
+	font-size: 18px !important;
+	margin: 0px !important;
+	padding: 0px !important;	
+}
+.profile-top-card
+{
+	padding: 0px  !important;
+}
+.profile-top-card a 
+{
+	padding: 0px 25px !important;
+	margin: 0px !important;
+}
+
+.profile-user-avatar-top-header
+{
+	padding: 0px 20px !important;
+	min-height: 150px !important;
+}
+.profile-user-avatar-top-header img
+{
+	width: 100%;
+	border-radius:50%;
+}
+
+.menu {
+	
+	color: #757575;
+	position: absolute;
+	top: 48px;
+	transform: scale(0);
+	transition: transform 0.2s;
+	z-index: 96;
+	min-width: 180px;
+	
+	padding:0px;
+	margin:0px;
+}
+.menu.show {
+	transform: scale(1);
+}
+.menu.menu--right {
+	transform-origin: top right;
+}
+.menu.menu--left {
+	transform-origin: top left;
+}
+
+.nav-menu-custome-i 
+{
+	margin-top: -4px !important;
+}
+
+/******************
+ Main content CSS 
+*/
+.main-content-section
+{
+	min-height: 100px;
+}
+ 
+.card-title-custom
+{
+	border-bottom: 1px solid #ccc;	
+}
+.card-title-custom .question-no
+{
+	padding:10px;	
+	border-right: 1px solid #ccc;
+	font-weight:bold;	
+}
+.card-title-custom .question-action
+{
+	padding: 10px;
+	padding-bottom:2px;	
+	border-left: 1px solid #ccc;
+}
+.question-currect-ans
+{
+	font-weight:bold;	
+}
+.question-subject-title
+{
+	padding: 10px !important;	
+	font-weight:bold;
+}
+.manage-subject-ch-no 
+{
+	padding:0px !important;
+	font-weight:bold;
+	border-right:1px solid #eee;
+}
+
+.model-title-custom 
+{
+	font-size:18px;
+}
+/******TEST GENERATE TABLE CSS******/
+.text-center
+{
+	text-align: center;
+}
+.custom-icon-size
+{
+	border-right: 1px solid  #e8eaf6;
+}
+.custom-icon-size i 
+{
+	margin: 0 !important;
+	padding: 0 !important;	
+}
+.custom-table-border-head
+{
+	border-right: 1px solid  #e0e0e0;
+	border-top: 1px solid  #e0e0e0;
+}
+.custom-table-border-body
+{
+	border-right: 1px solid  #e0e0e0;
+}
+
+.student-list-pic-column
+{
+	padding: 0px !important;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+.student-list-pic-column img
+{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-top:5px;
+}
+.card-content-custom
+{
+	padding: 0px;
+	margin: 0px;
+}
+/****** [END] TEST GENERATE TABLE CSS ********/
+.clickable-row
+{
+	cursor: pointer;	
+}
+.p-all-10-stud-profile
+{
+	padding: 15px 10px;
+}
+
+.custom-input-obt-mark
+{
+	border: 1px solid #b1b1b1 !important;
+	padding-left: 8px !important;
+	margin: 0 !important;
+	height: 35px !important;
+	
+}
+
+.card-title-dashboard 
+{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px !important;
+	padding:15px;
+	font-size: 17px;	
+}
+.card-title-dashboard i
+{
+	font-size: 22px !important;	
+}
+
+.dashboard-daily-thought
+{
+	font-size: 21px;
+	font-family: "Andalus";
+}
+.dash-date-day 
+{
+	clear:both;
+	font-size: 25px;
+	font-family: "Comic Sans MS";	
+}
+
+.innerBox
+{
+	height:50px;
+	width:100%;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+.recipe-name-title 
+{
+	width:100%;
+	padding:10px !important;
+	font-size:18px !important;
+	background: rgba(0,0,0,0.4);
+}
+.myListStyle, .myListStyle li 
+{
+	list-style: disc !important;	
+}
+
+/******************
+ Top Header Menu CSS 
+*/
+.mdl-list__item-avatar,.mdl-list__item-avatar.material-icons 
+{
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #757575;
+    font-size: 40px;
+    color: #fff
+}
+.logo-as-image
+{
+	margin-top:7px;
+	height: 50px;
+    box-sizing: border-box;
+}
+.footer-links .footer-social-links
+{
+	float: left;	
+}
+
+.footer-links li
+{
+	float:left;
+	font-size:15px;
+	margin-right:10px;	
+}
+
+.footer-social-links li
+{
+	float:left;
+	font-size:15px;
+	margin-right:15px;	
+}
+.footer-social-links li img
+{
+	width:40px;
+	height:40px;
+}
+.imgdiv
+{
+	height:360px;
+	width:100%;
+}
+.video1
+{
+	height:100px;
+	width:1000px;
+	background:url('');
+}
+hr{
+	color:white;
+	width: 100%
+}
+
+.video {
+  position: fixed;
+  /*top: 50%; left: 50%;*/
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+#page-wrap 
+{
+	width:auto;
+	margin: 0 auto;
+	position: relative;
+	z-index: 300;
+	background: rgba(0,0,0,0.7);
+	
+	height:auto;
+}
+
+.direction-list 
+{
+	list-style:decimal;
+}
+.direction-list li
+{
+	margin-bottom:10px;	
+}
